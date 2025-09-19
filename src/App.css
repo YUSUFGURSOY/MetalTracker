@@ -4,7 +4,7 @@ body {
     font-family: "Poppins", sans-serif;
     background: url("images/backround.webp") no-repeat center center fixed;
     background-size: cover;
-    /* resim tüm ekranı kaplasın */
+
     display: flex;
     justify-content: center;
     align-items: center;

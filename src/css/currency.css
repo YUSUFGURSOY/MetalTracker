@@ -151,7 +151,16 @@ body {
 /* Mobil uyum */
 @media (max-width: 400px) {
     .currency-div {
-        width: 90%;
+        width: 100%;
+        max-width: 360px;
         padding: 20px;
+        margin: 0 10px;
+        gap: 18px;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow: hidden;
+
     }
 }
