@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+
 }
 
 
@@ -148,19 +149,44 @@ body {
     }
 }
 
-/* Mobil uyum */
+
 @media (max-width: 400px) {
+    body {
+        padding: 10px;
+
+    }
+
+    .headd {
+        width: 100%;
+        max-width: 100%;
+        font-size: 1rem;
+        padding: 10px;
+        display: flex;
+        justify-self: center;
+    }
+
     .currency-div {
         width: 100%;
-        max-width: 360px;
-        padding: 20px;
-        margin: 0 10px;
-        gap: 18px;
-        box-sizing: border-box;
-    }
+        max-width: 300px;
 
-    body {
-        overflow: hidden;
+        padding: 12px;
+
+        gap: 10px;
 
     }
+
+    .currency-div input,
+    .currency-div select,
+    .button {
+        font-size: 14px;
+        /* mobilde font biraz küçüldü */
+        padding: 10px;
+        /* input ve button padding azaltıldı */
+    }
+}
+
+
+.headd {
+    font-size: 1.2rem;
+    padding: 15px 10px;
 }
