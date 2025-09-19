@@ -43,7 +43,7 @@ function Currency() {
         <>
             <div className='headd'>
 
-                Currency Conversion v1.2 @react <FaReact />
+                Currency Conversion-v1.2 @react <FaReact />
 
 
 
